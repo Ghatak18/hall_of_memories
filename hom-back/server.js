@@ -17,7 +17,7 @@ const cP = require("cookie-parser");
 const port = 3000 ;
 
 
-mongoose.connect("mongodb+srv://Tublai18:Supratik18@hom.5rjk0vp.mongodb.net/")
+mongoose.connect(process.env.MOB_CONNECT)
 .then(console.log("Its Happening"))
 .catch((error) =>{
     console.log(error);
