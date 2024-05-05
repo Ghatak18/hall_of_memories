@@ -1,0 +1,11 @@
+.head1{
+    margin-left: 50px;
+    background: url(https://unsplash.com/photos/blue-white-and-pink-petaled-flowers-on-gray-surface-Zxz01pNWGlE);
+ }
+
+ .headDown{
+    margin-top: 20px;;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+ }
